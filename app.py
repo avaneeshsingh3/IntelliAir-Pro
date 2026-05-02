@@ -350,7 +350,7 @@ def get_secret(name, default=""):
 
 
 def get_mongo_uri():
-    return get_secret("MONGO_URI", "mongodb://localhost:27017/")
+    return get_secret("MONGO_URI", "mongodb+srv://avaneesh5116as_db_user:H3qJCS55OoUIX0Su@intelliair-pro.dohoyp6.mongodb.net/")
 
 
 @st.cache_resource(show_spinner=False)
